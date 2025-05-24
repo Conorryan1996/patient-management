@@ -1,0 +1,11 @@
+### Create new billing account . Order for sending request is address of server / name of service / name of rpc method
+GRPC http://localhost:9001/BillingService/CreateBillingAccount
+Content-Type: application/json
+
+{
+  "patientId":"12345",
+  "name":"John doe",
+  "email":"john.doe@example.com"
+}
+
+###

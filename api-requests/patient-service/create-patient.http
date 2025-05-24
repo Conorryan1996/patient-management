@@ -1,0 +1,13 @@
+### POST request to create new patient entity
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "kafkatest doe",
+  "email": "kafkatest@testing.com",
+  "address": "2 chickle lane",
+  "dateOfBirth": "1995-10-10",
+  "registeredDate": "2025-01-01"
+}
+
+###
